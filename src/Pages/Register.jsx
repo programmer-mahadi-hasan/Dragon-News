@@ -22,7 +22,7 @@ const Register = () => {
     return (
         <div className="min-h-screen flex justify-center items-center">
             <div className="card bg-base-100 w-full max-w-lg shrink-0 shadow-2xl">
-                <h1 className="font-bold text-4xl py-5 text-center">Login your account</h1>
+                <h1 className="font-bold text-4xl py-5 text-center">Register your account</h1>
                 <div className="divider w-11/12 mx-auto"></div>
                 <form onSubmit={handleSubmit} className="card-body">
                     <div className="form-control">
@@ -50,7 +50,7 @@ const Register = () => {
                         <input name="password" type="password" placeholder="password" className="input input-bordered" required />
                     </div>
                     <div className="form-control mt-6">
-                        <button className="btn btn-primary">Login</button>
+                        <button className="btn btn-primary">Register</button>
                     </div>
                 </form>
                 <p className="text-center my-3">Already Have An Account ? <Link className="text-blue-500" to={"/auth/login"}>Login</Link> </p>
